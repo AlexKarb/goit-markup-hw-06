@@ -496,6 +496,7 @@ body {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -743,7 +744,6 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 528px;
-  height: 581px;
   padding: 40px;
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -850,6 +850,7 @@ body {
 .modal-form-input:hover ~ .modal-form-icon,
 .modal-form-input:focus ~ .modal-form-icon {
   fill: var(--acent-color);
+  outline: none;
 }
 
 .modal-form-comment {
@@ -920,7 +921,6 @@ body {
   height: 15px;
   border: 2px solid #000;
   border-radius: 2px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   cursor: pointer;
   margin-right: 8px;
 
@@ -939,6 +939,10 @@ body {
   box-shadow: none;
 }
 
-.agree-form-checkbox:focus + .agree-form-text::before {
-  outline: 1px solid #000;
+.modal-form-link {
+  color: var(--acent-color);
 }
+
+/* .agree-form-checkbox:focus + .agree-form-text::before {
+  outline: 1px solid #000;
+} */
