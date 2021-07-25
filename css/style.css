@@ -932,7 +932,7 @@ body {
 
 .agree-form-checkbox:checked + .agree-form-text::before {
   background-color: var(--acent-color);
-  background-image: url(/images/icon-check.svg);
+  background-image: url(../images/icon-check.svg);
   background-size: contain;
   background-origin: border-box;
   border-color: transparent;
